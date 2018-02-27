@@ -3,7 +3,7 @@
   (general
     (links 282)
     (no_connects 0)
-    (area 111.813333 -13.797619 244.854286 127.600001)
+    (area 131.949999 23.199999 232.050001 123.300001)
     (thickness 1.6)
     (drawings 243)
     (tracks 1212)
@@ -3834,8 +3834,8 @@
       (net 20 "Net-(J5-Pad3)"))
     (pad 4 thru_hole circle (at 0 -7.62) (size 1.8 1.8) (drill 1.016) (layers *.Cu *.Mask B.SilkS)
       (net 1 GND))
-    (model Pin_Headers.3dshapes/Pin_Header_Angled_1x08.wrl
-      (at (xyz 0 -0.35 0))
+    (model Connectors_JST.3dshapes/JST_EH_S04B-EH_04x2.50mm_Angled.wrl
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
@@ -3869,8 +3869,8 @@
       (net 110 "Net-(J14-Pad3)"))
     (pad 4 thru_hole circle (at 0 -7.62 180) (size 1.8 1.8) (drill 1.016) (layers *.Cu *.Mask B.SilkS)
       (net 1 GND))
-    (model Pin_Headers.3dshapes/Pin_Header_Angled_1x08.wrl
-      (at (xyz 0 -0.35 0))
+    (model Connectors_JST.3dshapes/JST_EH_S04B-EH_04x2.50mm_Angled.wrl
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
@@ -4132,6 +4132,11 @@
       (net 8 +5V))
     (pad 2 smd rect (at 2.09 0) (size 2.03 2.65) (layers B.Cu B.Paste B.Mask)
       (net 10 "Net-(F1-Pad2)"))
+    (model Resistors_SMD.3dshapes/R_1206.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering (layer B.Cu) (tedit 5A5A844B) (tstamp 5A442D0C)
@@ -4400,8 +4405,8 @@
       (net 1 GND))
     (pad 6 smd rect (at 4.9 -2) (size 2.5 2) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Connector_USB.3dshapes/USB_Mini-B_Lumber_2486_Horizontal.wrl
-      (at (xyz 0 0 0))
+    (model Connectors_USB.3dshapes/USB_Micro-B_Molex_47346-0001.wrl
+      (at (xyz 0 -0.065 -0.1))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -4449,8 +4454,8 @@
       (net 1 GND))
     (pad 6 smd rect (at 4.9 -2) (size 2.5 2) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Connector_USB.3dshapes/USB_Mini-B_Lumber_2486_Horizontal.wrl
-      (at (xyz 0 0 0))
+    (model Connectors_USB.3dshapes/USB_Micro-B_Molex_47346-0001.wrl
+      (at (xyz 0 -0.065 -0.1))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -4629,16 +4634,16 @@
     )
   )
 
-  (gr_text "D2 Rouge - POWER" (at 235.45 22.51) (layer F.Fab)
+  (gr_text "D2 Rouge - POWER" (at 239.84 24.92) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "C16 22pF" (at 150.57 32.99) (layer F.Fab)
+  (gr_text "C16 22pF" (at 144.87 34.69) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "C15 22pF" (at 150.53 28.8) (layer F.Fab)
+  (gr_text "C15 22pF" (at 144.88 30.58) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "D1 Rouge - USB/INFO" (at 143.07 22.48) (layer F.Fab)
+  (gr_text "D1 Rouge - USB/INFO" (at 146.55 24.83) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_line (start 143.64 24.86) (end 142.91 24.13) (angle 90) (layer B.Fab) (width 0.2))
